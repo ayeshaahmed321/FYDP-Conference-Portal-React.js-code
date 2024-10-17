@@ -27,7 +27,7 @@ const App = () => {
                     </a>
                 </header> */}
                 <main className="p-4">
-                    <p>main content area</p>
+                    <p>Main Content Area</p>
                 </main>
                 <Footer />
             </div>
