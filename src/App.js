@@ -27,8 +27,7 @@ const App = () => {
                     </a>
                 </header> */}
                 <main className="p-4">
-                    <h2>Welcome to My React App</h2>
-                    <p>This is the main content area.</p>
+                    <p>main content area</p>
                 </main>
                 <Footer />
             </div>
