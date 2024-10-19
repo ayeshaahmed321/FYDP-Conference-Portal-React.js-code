@@ -1,38 +1,12 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import { AuthProvider } from './context/Auth';
-import logo from './logo.svg';
-import './App.css';
+import HomePage from './HomePage'; // Adjust this path if needed
 
-// Main App component
-const App = () => {
-    return (
-        <AuthProvider>
-            <div className="App">
-                <Navbar />
-                {/* Remove or comment out the header section */}
-                {/* <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <p>
-                        Edit <code>src/App.js</code> and save to reload.
-                    </p>
-                    <a
-                        className="App-link"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn React
-                    </a>
-                </header> */}
-                <main className="p-4">
-                    <p>Main Content Area</p>
-                </main>
-                <Footer />
-            </div>
-        </AuthProvider>
-    );
-};
+function App() {
+  return (
+    <div className="App">
+      <HomePage />
+    </div>
+  );
+}
 
 export default App;

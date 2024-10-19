@@ -1,5 +1,3 @@
-// src/index.js or src/App.js
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css'; // Import your Tailwind CSS
